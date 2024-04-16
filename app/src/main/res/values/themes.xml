@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Agendador" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Agendador" parent="Base.Theme.Agendador" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/img</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Agendador</item>
+
+    </style>
+</resources>
